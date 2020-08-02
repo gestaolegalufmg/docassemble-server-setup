@@ -1,3 +1,6 @@
+import subprocess
+import pathlib
+import os
 from util_scripts.basic_setup import install_basic_packages, install_docker_compose
 
 install_basic_packages()
@@ -23,5 +26,5 @@ g = open("docassemble_generator_server/.env", "w+")
 g.write(env_file)
 g.close()
 print("O .env foi gerado com sucesso!")
-print("Entre na pasta docassemble_generator_server...")
-print("Digite, em seguida, make run")
+os.chdir(pathlib.Path(__file__).parent.absolute())
+subprocess.run(["make", "run"])
