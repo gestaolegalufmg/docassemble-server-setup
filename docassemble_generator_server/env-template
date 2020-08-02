@@ -1,0 +1,14 @@
+CONTAINERROLE=all
+DAPYTHONVERSION=3
+DAHOSTNAME=${domain}
+USEHTTPS=true
+USELETSENCRYPT=true
+LETSENCRYPTEMAIL=${server_admin_mail}
+TIMEZONE=America/Sao_Paulo
+LANGUAGE=pt
+LOCALE=pt_BR.utf8
+DAWEBSERVER=nginx
+SERVERADMIN=${server_admin_mail}
+PYTHONPACKAGES=docassemble-wrappers,num2words,validator-collection-br,retry-requests
+DAALLOWUPDATES=true
+DASTABLEVERSION=true
