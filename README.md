@@ -1,5 +1,5 @@
 # docassemble-server-setup
-###Arquivos de configuração do servidor docassemble
+###Instalação do servidor Docassemble
 
 Essa instalação simplificada do Docassemble configura as variáveis essenciais usadaas na instalação e foi feita para Ubuntu Server 18.04.
 
@@ -59,5 +59,18 @@ Password: password
 A senha deverá ser trocada no primeiro acesso. 
 
 Seu servidor do Docassemble está prontinho para uso!
+
+
+## Instalação dos Documentos da DAJ
+Ao entrar no servidor vá no menu **Package Management** (Gerenciamento de Pacotes).
+
+Preencha o campo
+
+```
+https://github.com/gestaolegalufmg/docsdaj
+```
+
+
+
 
 
